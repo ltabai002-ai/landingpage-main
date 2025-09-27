@@ -68,7 +68,7 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
       {/* Hero Section */}
       <section className="py-12 px-4 sm:py-20">
         <div className="max-w-4xl mx-auto text-center">
@@ -76,7 +76,7 @@ function App() {
             Want to build your website at a{' '}
             <span className="text-blue-600">very affordable price</span>?
           </h1>
-          <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white p-6 rounded-2xl shadow-lg mb-8 transform hover:scale-105 transition-transform duration-300">
+          <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-2xl shadow-lg mb-8 transform hover:scale-105 transition-transform duration-300">
             <p className="text-xl sm:text-2xl font-semibold">
               Build your website in just cost of one cup of coffee per day
             </p>
@@ -131,7 +131,7 @@ function App() {
       </section>
 
       {/* Worked with Top Brands Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-blue-900 to-purple-900">
+      <section className="py-16 px-4 bg-gradient-to-r from-indigo-900 to-purple-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-12">
             Worked with <span className="text-yellow-400">Top Brands</span>
@@ -175,7 +175,7 @@ function App() {
       </section>
 
       {/* Lead Generation Form Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-green-600 to-blue-600">
+      <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-purple-700">
         <div className="max-w-4xl mx-auto">
           <div className="text-center text-white mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
@@ -260,7 +260,7 @@ function App() {
               
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold py-4 px-8 rounded-lg hover:from-orange-600 hover:to-red-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-4 px-8 rounded-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Get My Website Quote Now!
                 <ArrowRight className="w-5 h-5 inline ml-2" />
